@@ -1,7 +1,4 @@
-const hello = require("./hello");
-describe("My hello", () => {
-    test("works", () => {
-        expect(hello.hello()).toEqual("Hola, Mundo, desde mexico");
-    });
-});
+cconst hello = () => “Hola mundo, Desde Mexico”;
+console.log(hello());
+exports.hello = hello;
 
